@@ -44,6 +44,7 @@ async def join_and_play(ctx, voice_channel):
             'noplaylist': True,
             'quiet': True,
             'cookiefile': 'youtube_cookies.txt',
+            'default_search': 'ytsearch',
 }
 
         
