@@ -46,7 +46,7 @@ async def join_and_play(ctx, voice_channel):
             'cookiefile': 'youtube_cookies.txt',
 }
 
-        }
+        
         with YoutubeDL(ydl_opts) as ydl:
             info = ydl.extract_info(query, download=False)['entries'][0]
             url = info['url']
